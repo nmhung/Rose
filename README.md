@@ -1,2 +1,2 @@
-# debug-helper
+# Rose
 Show Android log in the best way, easy to debug.
