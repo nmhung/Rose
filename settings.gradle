@@ -1,1 +1,1 @@
-include ':app', ':rose'
+include ':app', ':rose-library'

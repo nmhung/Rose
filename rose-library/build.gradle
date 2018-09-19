@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
+apply plugin: 'com.novoda.bintray-release' // must be applied after your artifact generating plugin (eg. java / com.android.library)
+
 android {
     compileSdkVersion 28
 
@@ -23,6 +25,9 @@ android {
         }
     }
 
+    tasks.withType(Javadoc).all {
+        enabled = false
+    }
 }
 
 dependencies {
@@ -36,4 +41,14 @@ dependencies {
 }
 repositories {
     mavenCentral()
+}
+
+publish {
+    userOrg = 'nmhung'
+    repoName = 'Rose'
+    groupId = 'net.fitken'
+    artifactId = 'rose'
+    publishVersion = '1.0.1'
+    desc = 'The very first release'
+    website = 'https://github.com/nmhung/Rose'
 }
