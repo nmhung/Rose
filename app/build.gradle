@@ -32,7 +32,7 @@ dependencies {
 //    implementation 'com.github.nmhung:debug-helper:v1.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    implementation project(':rose-library')
-    implementation "net.fitken:rose:1.0.1"
+//    implementation project(':rose-library')
+    implementation "net.fitken:rose:1.0.2"
 }
 
