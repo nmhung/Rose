@@ -1,4 +1,8 @@
 # Rose
+
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Rose-green.svg?style=flat )]( https://android-arsenal.com/details/1/7226 )
+
+
 Show Android log in the best way, easy to debug.
 
  
